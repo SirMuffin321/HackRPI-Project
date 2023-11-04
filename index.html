@@ -1,17 +1,47 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
-        <title>
-            My first site!
-        </title>
+        <meta charset = "utf-8">
+        <meta name = "viewport" content = "width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="index.css">
+        <title>Diabetes Prediction Quiz</title>
     </head>
     <body>
-        <div>
-            <h1>My first HACKRPI</h1>
-            <p>Plaintext</p>
-        </div>
-        <div>
-            <h2>Second div!</h2>
+        <div class="quiz-container">
+            <h1>Are you at risk for diabetes?</h1>
+            <hr>
+            <form id="quiz-form">
+                <div class="d-flex">
+                    <div class = "question"><!--Copy and paste question format for each question-->
+                        <p>1. What is your age?</p>
+                        <div class="answers">
+                            <label>
+                                <input type="radio" name="q1" value="a">    
+                                18-29
+                            </label>
+                            <label>
+                                <input type="radio" name="q1" value="b">
+                                30-39
+                            </label>
+                            <label>
+                                <input type="radio" name="q1" value="c">
+                                40-49
+                            </label>
+                            <label>
+                                <input type="radio" name="q1" value="d">
+                                50-59
+                            </label>
+                            <label>
+                                <input type="radio" name="q1" value="e">
+                                60+
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <button type="submit" class="submit-btn">Submit</button>
+            </form>
+            <div class = "result" id="result"></div>
         </div>
     </body>
 </html>
+
