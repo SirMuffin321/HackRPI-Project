@@ -1,6 +1,3 @@
-print("Jello world")
-print('Munch')
-
 #Machine Learning with Health Care
 # - Diabetes
 # - Dementia
