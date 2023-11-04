@@ -1,0 +1,47 @@
+body{
+    font-family: Helvetica, sans-serif;
+    font-size: large;
+    background-color: azure;
+}
+
+.quiz-container{
+    width:90%;
+    margin: 0 auto;
+}
+
+.quiz-container h1{
+    text-align: center;
+}
+
+.question{
+    width: 45%;
+    margin-bottom: 10px;
+    background: #fff;
+    padding: 20px;
+}
+
+.question:nth-child(odd){
+    margin-right: 5%;
+}
+
+.question p {
+    font-weight: bold;
+}
+
+.answers{
+    margin-bottom: 20px;
+}
+
+.heightweight{
+    margin-bottom: 20px;
+}
+
+.answers label:not(:first-child){
+    border-top:1px solid #e0e0e0;
+}
+
+.answers label{
+    padding: 10px 0;
+    display: block;
+    margin-bottom: 10px;
+}
